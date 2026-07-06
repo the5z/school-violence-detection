@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Dataset
+dataset/
+
+# Runtime folders
+captures/*
+!captures/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Logs/temp
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Duplicate model files
+best_model(1).keras
+violence_model(1).keras
+
+# Old test scripts
+camera_live.py
+webcam_yolo.py
+webcam.py
+
+# Training history
+history.csv
